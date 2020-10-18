@@ -1,0 +1,92 @@
+.navbar {
+    background-color: white;
+}
+
+.logoimg {
+    height:2rem;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+
+}
+.options1{
+    color: black !important;
+}
+
+.icons { 
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+
+
+
+
+
+.postcard{
+    background-color: rgb(209, 209, 209);
+    padding-bottom: 2rem;
+}
+.heading1{
+    text-align: center;
+    color: rgb(88, 86, 86);
+}
+
+.card-img{
+    height: 100%;
+}
+.form-control{
+    border-width:0 0 1px 0;
+    width:75%;
+    
+    
+}
+.radiobtn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button1{
+    
+}
+
+
+
+
+
+.heading2{
+    text-align: center;
+    color: rgb(88, 86, 86);   
+}
+
+.content3{
+    background-color: rgb(202, 201, 201);
+}
+
+.para2{
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    color: rgb(88, 86, 86);
+}
+
+
+@media only screen and (max-width: 900px) {
+    .options{
+      display: none;
+    }
+  }
+  
